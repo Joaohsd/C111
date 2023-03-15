@@ -130,7 +130,7 @@ Nesse caso, é possível remover um elemento pelo sua própria chave de duas man
 
 </div>
 
-#### **Removendo com valor retornado, o método pop retorna o valor relacionado aquela chave**
+* #### **Removendo com valor retornado, o método pop retorna o valor relacionado aquela chave**
 
 <div align="center">
 
