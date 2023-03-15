@@ -70,7 +70,7 @@ Os conjuntos são estruturas de dados, que possibilitam armazenar informações 
 
 <div align="center">
 
-`names = {'Goku', 'Trunks', 'Vegeta', 'Trunks', 'Gohan'}`
+`nomes = {'Goku', 'Trunks', 'Vegeta', 'Trunks', 'Gohan'}`
 
 </div>
 
@@ -78,7 +78,7 @@ Os conjuntos são estruturas de dados, que possibilitam armazenar informações 
 
 <div align="center">
 
-`names.add('Piccolo')`
+`nomes.add('Piccolo')`
 
 </div>
 
@@ -98,7 +98,7 @@ Finalizando as coleções do Python, temos os dicionários. Sua estrutura é do 
 
 <div align="center">
 
-`person = {'name': 'Goku','age': 42}`
+`pessoa = {'nome': 'Goku','idade': 42}`
 
 </div>
 
@@ -106,7 +106,7 @@ Finalizando as coleções do Python, temos os dicionários. Sua estrutura é do 
 
 <div align="center">
 
-`person['sex'] = 'M'`
+`pessoa['sexo'] = 'M'`
 
 </div>
 
@@ -114,7 +114,7 @@ Finalizando as coleções do Python, temos os dicionários. Sua estrutura é do 
 
 <div align="center">
 
-`person['age'] = 40`
+`pessoa['idade'] = 40`
 
 </div>
 
@@ -126,7 +126,7 @@ Nesse caso, é possível remover um elemento pelo sua própria chave de duas man
 
 <div align="center">
 
-`del person['name']`
+`del pessoa['nome']`
 
 </div>
 
@@ -134,6 +134,6 @@ Nesse caso, é possível remover um elemento pelo sua própria chave de duas man
 
 <div align="center">
 
-`x = person.pop('sex')`
+`x = pessoa.pop('sexo')`
 
 </div>
