@@ -1,6 +1,6 @@
 # **Collections in Python**
 
-They are structured data structures, which make it possible to store one or more values.
+They are data structures, which make it possible to store one or more values.
 
 ## **1 - Tuples**
 
@@ -76,7 +76,7 @@ names.remove('Trunks')
 
 Finishing off Python's collections, we have dictionaries. Its structure is of the key-value type (having several keys inside the dictionary) and resembles the JSON (JavaScript Object Notation) format. Just like the set, its storage is done in a disorderly way. On a dictionary, you can perform full CRUD, just like on lists. In this way, we can create a dictionary, add the elements, update the elements and remove the elements present in it.
 
-## **Creating a Dictionary**
+* ### **Creating a Dictionary**
 
 ```python
 person = {'name': 'Goku','age': 42}
