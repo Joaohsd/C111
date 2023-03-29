@@ -1,6 +1,6 @@
 # **Collections in Python**
 
-They are structured data structures, which make it possible to store one or more values.
+They are data structures, which make it possible to store one or more values.
 
 ## **1 - Tuples**
 
