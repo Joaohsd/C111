@@ -9,6 +9,18 @@ Com ela, é possível:
 * Manipular arrays multidimensionais;
 * Realizar inúmeras operações matemáticas sobre estes arrays;
 
+## **Tipos de Dados**
+
+O Numpy suporta diversos tipos de dados, os quais são apresentados na imagem abaixo:
+
+<img src="img/dadosNumpy.png"></img>
+
+## **Como funcionam as operações entre os ndarrays?**
+
+O Numpy facilita, e muito, a realização de operações entre arrays. No caso, quando utiliza-se do operador "+", por exemplo, isso pode ocorrer elemento a elemento ou, quando o formato dos arrays é diferente, realiza-se o broadcasting. A imagem abaixo ilustra essa situação:
+
+<img src="img/operacaoNumpy.png"></img>
+
 ## **Aplicação**
 
 Nessa seção, será descrito alguns comandos e formas de se utilizar o Numpy.
