@@ -41,9 +41,9 @@ Ao importar o numpy, criamos um apelido para ele, o **np**.
 import numpy as np
 ```
 
-### **Criando um numpy array**
+### **Creating a numpy array**
 
-Todos os arrays do numpy são do tipo **ndarray**. Seu nome se da pela ideia de "n dimensions array", ou seja, um array com várias dimensões possíveis. 
+The type of arrays in numpy is a **ndarray**. Its name is related to "n dimensions array", that is, an array with multple dimensions possible. 
 
 ### **One dimentional array**
 
@@ -209,15 +209,64 @@ arr = np.array([
         [5,6,7,8],
         [9,10,11,12]
     ])
-print(arr.size)
-print(arr.ndim)
-print(arr.shape)
+print('Array size:',arr.size)
+print('Array dimension:',arr.ndim)
+print('Array shape:',arr.shape)
 ```
 
 Output:
 
 ```console
-12
-2
-(3, 4)
+Array size: 12
+Array dimension: 2
+Array shape: (3, 4)
+```
+
+### **Random integer arrays in numpy**
+
+Code:
+
+```python
+arr = np.random.randint(low=1, high=100, size=10)
+print(arr)
+```
+
+Output:
+
+```console
+[99 78 61 16 73  8 62 27 30 80]
+```
+
+### **Random integer arrays in numpy with fixed seed**
+
+Code:
+
+```python
+np.random.seed(5) # fix seed to 5
+arr = np.random.randint(low=1, high=100, size=10)
+print(arr)
+```
+
+Output:
+
+```console
+[79 62 17 74  9 63 28 31 81  8]
+```
+
+### **Random integer arrays in numpy with fixed seed and unique elements:**
+
+Code:
+
+```python
+#  Removing repeated elements
+print('Array without repeated elements:',np.unique(arr))
+# Getting number of repetition for each element
+print('Array without repeated elements and the number of repetitions for each element:',np.unique(arr, return_counts=True))
+```
+
+Output:
+
+```console
+Array without repeated elements: [1 4 5 7 8 9]
+Array without repeated elements and the number of repetitions for each element: (array([1, 4, 5, 7, 8, 9]), array([3, 1, 1, 2, 2, 1]))
 ```
