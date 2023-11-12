@@ -7,6 +7,7 @@ print(arr.shape)
 
 # Random numbers with random module
 np.random.seed(5)
+print(np.random.rand(5))
 arr = np.random.randint(low=1, high=10, size=10)
 print(arr)
 # Removing repeated elements
